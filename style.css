@@ -127,6 +127,9 @@ background-color:  #F6F6F6;
 
 .title{
   text-align: center;
+  padding-bottom: 20px;
+  font-weight: 600;
+  font-size: 34px;
 }
 
 .about-info p{
@@ -134,9 +137,45 @@ background-color:  #F6F6F6;
   text-align: center;
 
 }
-
+.skills{
+  padding: 140px 0;
+}
 .skills-inner{
   display: flex;
   text-align: center;
   flex-direction: column;
+  
+}
+.skills-title{
+padding-bottom: 75px;
+}
+.skils-list{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.skils-name{
+  padding: 24px 0 ;
+margin: 0 auto;
+  width: 80px;
+  color: #828282;
+  font-size: 14px;
+  height: 66px;
+}
+
+
+.portfolio {
+  padding: 140px 0;
+  background-color:  #F6F6F6;
+  
+}
+
+.portfolio-inner{
+  text-align: center;
+}
+
+.portfolio-inner img{
+width: 100%;
+ 
 }
