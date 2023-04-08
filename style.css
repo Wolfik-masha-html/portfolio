@@ -177,5 +177,59 @@ margin: 0 auto;
 
 .portfolio-inner img{
 width: 100%;
- 
+}
+
+.portfolio-item p{
+  padding:45px 0  100px 0 ;
+}
+
+.portfolio-item{
+  list-style: none;
+overflow: hidden;
+}
+
+
+
+
+.portfolio-item img:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contacts{
+  padding: 140px 0 ;
+}
+
+.contacts-inner{
+ text-align: center;
+}
+.contacts-list{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.contacts-text{
+  padding-top: 20px;
+  padding-bottom:30px;
+}
+.contacts-button{
+  height: 48px;
+  width: 191px;
+  margin-top: 43px;
+  margin-bottom: 56px;
+  background-color: #070707;
+  color: #F6F6F6;
+  border-radius: 30px ;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 13px 30px ;
+  
+}
+
+.diskribe{
+  color:cornflowerblue;
+  padding-top: 51px;
+padding-bottom: 100px;
+max-width: 300px;
+text-align: center;
+margin: 0 auto;
 }
